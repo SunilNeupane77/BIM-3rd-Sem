@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image: url('images/band-member.png');
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    max-height: 100px;
+    max-width: 100px;
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 30px 100px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+li:hover {
+    background-color: silver;
+}
+
+section {
+    color: whitesmoke;
+}
+
+section h1 {
+    font-size: 2vw;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+article p {
+    font-size: 1.3vw;
+    text-align: justify;
+    padding: 9px;
+}
+
+footer p {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.5vw;
+    color: whitesmoke;
+}
+
+
+/* For mobile phones: */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: whitesmoke;
+        padding: 5px 5px 15px 5px;
+    }
+
+    .logo {
+        max-height: 80px;
+        max-width: 60px;
+        opacity: 0.7;
+    }
+
+    nav ul li {
+        display: block;
+        float: left;
+        font-size: 14px;
+        padding: 10px 5px 15px 10px;
+    }
+
+    section h1 {
+        font-size: 14px;
+    }
+
+    section p {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+/* For tablets phones: */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: whitesmoke;
+        padding: 10px 30px 10px 15px;
+    }
+
+    .logo {
+        max-height: 80px;
+        max-width: 70px;
+        opacity: 0.7;
+    }
+
+    nav ul li {
+        display: block;
+        float: left;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    section h1 {
+        font-size: 20px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+/* For laptops: */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: whitesmoke;
+        padding: 30px 50px 20px 30px;
+    }
+
+    .logo {
+        max-height: 80px;
+        max-width: 100px;
+        opacity: 0.7;
+    }
+
+    nav ul li {
+        display: block;
+        float: left;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    section h1 {
+        font-size: 20px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}
+
+/* For large screens: */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: whitesmoke;
+        padding: 10px 30px;
+    }
+
+    .logo {
+        max-height: 80px;
+        max-width: 100px;
+        opacity: 0.7;
+    }
+
+    nav ul li {
+        display: block;
+        float: left;
+        font-size: 16px;
+        padding: 20px 40px;
+    }
+
+    section h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}

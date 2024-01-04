@@ -1,0 +1,34 @@
+body {
+    background-color: lightcoral;
+}
+
+/* @media screen and (min-width: 400px) and (max-width: 800px) {
+    body {
+        background-color: aqua;
+    }
+} */
+
+/* @media screen and (400px <=width <=800px) {
+    body {
+        background-color: aqua;
+    }
+} */
+
+/* @media screen and (orientation: landscape) {
+    body {
+        background-color: cadetblue;
+    }
+} */
+
+/* @media screen and (orientation: portrait) {
+    body {
+        background-color: cadetblue;
+    }
+} */
+
+/* @media print {
+    p {
+        color: salmon;
+        font-size: 50px;
+    }
+} */

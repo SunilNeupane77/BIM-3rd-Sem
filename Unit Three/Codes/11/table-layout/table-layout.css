@@ -1,0 +1,18 @@
+table {
+    width: 100px;
+}
+
+table.one {
+    table-layout: auto;
+}
+
+table.two {
+    table-layout: fixed;
+}
+
+td {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+}

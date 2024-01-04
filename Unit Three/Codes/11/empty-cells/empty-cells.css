@@ -1,0 +1,12 @@
+table {
+    width: 350px;
+    border-collapse: separate;
+    empty-cells: show;
+}
+
+td {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+}

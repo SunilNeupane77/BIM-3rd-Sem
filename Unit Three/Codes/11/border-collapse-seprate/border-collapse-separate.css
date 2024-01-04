@@ -1,0 +1,21 @@
+table.one {
+    border-collapse: collapse;
+}
+
+table.two {
+    border-collapse: separate;
+}
+
+td.a {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #000000;
+    padding: 10px;
+}
+
+td.b {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #333333;
+    padding: 10px;
+}
